@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'package:class_app/second_screen.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               print('Hello');
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SecondScreen()),
+                MaterialPageRoute(builder: (context) => SecondScreen(name: "jonathan",)),
               );
             },
           ),
