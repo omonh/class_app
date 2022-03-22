@@ -1,16 +1,16 @@
+import 'package:class_app/screens/homescreen.dart';
 import 'package:flutter/material.dart';
-import 'package:class_app/homeScreen.dart';
-void main () {
-  runApp(MyApp());
-}
 
-class MyApp extends StatelessWidget {
-  const MyApp({ Key? key }) : super(key: key);
+void main(){
+  runApp(MusicApp());
+}
+class MusicApp extends StatelessWidget {
+  const MusicApp({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: Homescreen(),
       
     );
   }
